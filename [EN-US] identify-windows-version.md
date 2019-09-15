@@ -1,14 +1,11 @@
-# How to identify the specific version for your Windows
+# Command to identify the Windows version inside a stick or DVD
 
 **Open CMD or PowerShell as administrator** 
-**Command to identify the Windows version inside a stick or DVD**
 ```PowerShell
 dism /Get-WimInfo /WimFile:D:\sources\install.esd /index:1
 ```
 
----
-
-**Example of the expected output**
+**Example of the expected output** 
 ```PowerShell
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
@@ -39,8 +36,7 @@ Directories : 18679
 Files : 87458
 Created : 4/1/2019 - 8:09:02 PM
 Modified : 5/21/2019 - 5:19:07 PM
-Languages :
-        en-US (Default)
+Languages : en-US (Default)
 
 The operation completed successfully.
 PS C:\Windows\system32>
