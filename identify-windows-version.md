@@ -2,5 +2,5 @@
 
 **PowerShell command:**
 ```powershell
-dism /Get-WimInfo /WimFile:D:\sources\install.esd /index:1
+PS C:\> dism /Get-WimInfo /WimFile:D:\sources\install.esd /index:1
 ```
