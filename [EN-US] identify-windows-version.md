@@ -1,4 +1,4 @@
-# Command to identify the Windows version inside a stick or DVD
+# Identify the Windows version inside a stick or DVD
 
 **Open CMD or PowerShell as administrator** 
 ```PowerShell
